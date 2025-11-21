@@ -19,17 +19,17 @@ This section highlights the key problems solved, demonstrating various modeling 
 
 ### 1. Process & Industrial Optimization (LP/MIP)
 
-| Problem Name | Application Area | Key Elements Demonstrated | Link to File |
-| :--- | :--- | :--- | :--- |
-| **Food Manufacturing Blending** | **Food Manufacturing:** Determining the optimal mix of ingredients (raw materials) to achieve target nutritional/quality specs at minimum production cost. | Continuous Variables, **Blending Constraints**, Cost Minimization. | [View Code](./food_manufacturing.py) |
-| **Mining Optimization** | **Mining/Resource Extraction:** Selecting which blocks of ore to mine to maximize profit while adhering to pit slope constraints and metal content requirements. | Integer/Binary Variables, **Precedence Constraints** (to maintain physical structure). | [View Code](./mining_problem.py) |
-| **Refinery Production Planning** | **Oil & Gas Refinery:** Optimizing crude oil selection, processing rates, and final product output (e.g., gasoline, jet fuel) to maximize profit. | Multi-stage Continuous Variables, Mass Balance Constraints. | [View Code](./refinery_planning.py) |
+| Problem Name | Application Area | Key Elements Demonstrated | 
+| :--- | :--- | :--- | 
+| **Food Manufacturing Blending** | **Food Manufacturing:** Determining the optimal mix of ingredients (raw materials) to achieve target nutritional/quality specs at minimum production cost. | Continuous Variables, **Blending Constraints**, Cost Minimization. |
+| **Mining Optimization** | **Mining/Resource Extraction:** Selecting which blocks of ore to mine to maximize profit while adhering to pit slope constraints and metal content requirements. | Integer/Binary Variables, **Precedence Constraints** (to maintain physical structure). | 
+| **Refinery Production Planning** | **Oil & Gas Refinery:** Optimizing crude oil selection, processing rates, and final product output (e.g., gasoline, jet fuel) to maximize profit. | Multi-stage Continuous Variables, Mass Balance Constraints. | 
 
 ### 2. Discrete Optimization & Stochastic Modeling
 
-| Problem Name | Description | Key Elements Demonstrated | Link to File |
-| :--- | :--- | :--- | :--- |
-| **The Knapsack Problem** | **Resource Allocation:** Selecting the most valuable set of items (e.g., projects, assets) to include in a bag (budget/capacity) without exceeding the weight limit. | **Binary Variables** (0/1 choice), Single Resource Constraint, Value Maximization. | [View Code](./knapsack_problem.py) |
-| **Simple Markov Chain** | **Financial/State Modeling:** Modeling the probability of a system changing from one state to another (e.g., credit rating migration, machine maintenance state). | **Transition Probability Matrix**, Steady-State Vector Calculation (using NumPy). | [View Code](./markov_chain.py) |
+| Problem Name | Description | Key Elements Demonstrated | 
+| :--- | :--- | :--- |
+| **The Knapsack Problem** | **Resource Allocation:** Selecting the most valuable set of items (e.g., projects, assets) to include in a bag (budget/capacity) without exceeding the weight limit. | **Binary Variables** (0/1 choice), Single Resource Constraint, Value Maximization. |
+| **Simple Markov Chain** | **Financial/State Modeling:** Modeling the probability of a system changing from one state to another (e.g., credit rating migration, machine maintenance state). | **Transition Probability Matrix**, Steady-State Vector Calculation (using NumPy). | 
 
 ---
